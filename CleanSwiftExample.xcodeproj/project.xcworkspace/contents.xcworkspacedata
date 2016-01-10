@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ViperExample.xcodeproj">
+      location = "self:/Users/aks/Developer/iOSWorkSpace/ViperExample/CleanSwiftExample.xcodeproj">
    </FileRef>
 </Workspace>

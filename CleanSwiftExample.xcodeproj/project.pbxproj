@@ -27,11 +27,9 @@
 		0933A4C31C42C5A9008586B4 /* CreateOrderWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0933A4BB1C42C5A9008586B4 /* CreateOrderWorkerTests.swift */; };
 		0933A4C41C42C6CC008586B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09510D731C3EC6A600CD1547 /* Main.storyboard */; };
 		09510D701C3EC6A600CD1547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09510D6F1C3EC6A600CD1547 /* AppDelegate.swift */; };
-		09510D721C3EC6A600CD1547 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09510D711C3EC6A600CD1547 /* ViewController.swift */; };
 		09510D751C3EC6A600CD1547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09510D731C3EC6A600CD1547 /* Main.storyboard */; };
 		09510D771C3EC6A600CD1547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09510D761C3EC6A600CD1547 /* Assets.xcassets */; };
 		09510D7A1C3EC6A600CD1547 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09510D781C3EC6A600CD1547 /* LaunchScreen.storyboard */; };
-		09510D851C3EC6A600CD1547 /* ViperExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09510D841C3EC6A600CD1547 /* ViperExampleTests.swift */; };
 		09510D901C3EC6A600CD1547 /* ViperExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09510D8F1C3EC6A600CD1547 /* ViperExampleUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,17 +62,15 @@
 		0933A4B91C42C5A9008586B4 /* CreateOrderPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderPresenterTests.swift; sourceTree = "<group>"; };
 		0933A4BA1C42C5A9008586B4 /* CreateOrderViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderViewControllerTests.swift; sourceTree = "<group>"; };
 		0933A4BB1C42C5A9008586B4 /* CreateOrderWorkerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderWorkerTests.swift; sourceTree = "<group>"; };
-		09510D6C1C3EC6A600CD1547 /* ViperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09510D6C1C3EC6A600CD1547 /* CleanSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09510D6F1C3EC6A600CD1547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09510D711C3EC6A600CD1547 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09510D741C3EC6A600CD1547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09510D761C3EC6A600CD1547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09510D791C3EC6A600CD1547 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09510D7B1C3EC6A600CD1547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09510D801C3EC6A600CD1547 /* ViperExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		09510D841C3EC6A600CD1547 /* ViperExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperExampleTests.swift; sourceTree = "<group>"; };
+		09510D801C3EC6A600CD1547 /* CleanSwiftExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanSwiftExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09510D861C3EC6A600CD1547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09510D8B1C3EC6A600CD1547 /* ViperExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09510D8B1C3EC6A600CD1547 /* CleanSwiftExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanSwiftExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09510D8F1C3EC6A600CD1547 /* ViperExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperExampleUITests.swift; sourceTree = "<group>"; };
 		09510D911C3EC6A600CD1547 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,9 +140,9 @@
 		09510D631C3EC6A600CD1547 = {
 			isa = PBXGroup;
 			children = (
-				09510D6E1C3EC6A600CD1547 /* ViperExample */,
-				09510D831C3EC6A600CD1547 /* ViperExampleTests */,
-				09510D8E1C3EC6A600CD1547 /* ViperExampleUITests */,
+				09510D6E1C3EC6A600CD1547 /* CleanSwiftExample */,
+				09510D831C3EC6A600CD1547 /* CleanSwiftExampleTests */,
+				09510D8E1C3EC6A600CD1547 /* CleanSwiftExampleUITests */,
 				09510D6D1C3EC6A600CD1547 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,56 +150,57 @@
 		09510D6D1C3EC6A600CD1547 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09510D6C1C3EC6A600CD1547 /* ViperExample.app */,
-				09510D801C3EC6A600CD1547 /* ViperExampleTests.xctest */,
-				09510D8B1C3EC6A600CD1547 /* ViperExampleUITests.xctest */,
+				09510D6C1C3EC6A600CD1547 /* CleanSwiftExample.app */,
+				09510D801C3EC6A600CD1547 /* CleanSwiftExample.xctest */,
+				09510D8B1C3EC6A600CD1547 /* CleanSwiftExample.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		09510D6E1C3EC6A600CD1547 /* ViperExample */ = {
+		09510D6E1C3EC6A600CD1547 /* CleanSwiftExample */ = {
 			isa = PBXGroup;
 			children = (
 				0933A4A11C417C51008586B4 /* Common */,
 				0933A49F1C417BF9008586B4 /* Scene */,
 				09510D6F1C3EC6A600CD1547 /* AppDelegate.swift */,
-				09510D711C3EC6A600CD1547 /* ViewController.swift */,
 				09510D731C3EC6A600CD1547 /* Main.storyboard */,
 				09510D761C3EC6A600CD1547 /* Assets.xcassets */,
 				09510D781C3EC6A600CD1547 /* LaunchScreen.storyboard */,
 				09510D7B1C3EC6A600CD1547 /* Info.plist */,
 			);
+			name = CleanSwiftExample;
 			path = ViperExample;
 			sourceTree = "<group>";
 		};
-		09510D831C3EC6A600CD1547 /* ViperExampleTests */ = {
+		09510D831C3EC6A600CD1547 /* CleanSwiftExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				09510D841C3EC6A600CD1547 /* ViperExampleTests.swift */,
 				09510D861C3EC6A600CD1547 /* Info.plist */,
 				0933A4B81C42C5A9008586B4 /* CreateOrderInteractorTests.swift */,
 				0933A4B91C42C5A9008586B4 /* CreateOrderPresenterTests.swift */,
 				0933A4BA1C42C5A9008586B4 /* CreateOrderViewControllerTests.swift */,
 				0933A4BB1C42C5A9008586B4 /* CreateOrderWorkerTests.swift */,
 			);
+			name = CleanSwiftExampleTests;
 			path = ViperExampleTests;
 			sourceTree = "<group>";
 		};
-		09510D8E1C3EC6A600CD1547 /* ViperExampleUITests */ = {
+		09510D8E1C3EC6A600CD1547 /* CleanSwiftExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
 				09510D8F1C3EC6A600CD1547 /* ViperExampleUITests.swift */,
 				09510D911C3EC6A600CD1547 /* Info.plist */,
 			);
+			name = CleanSwiftExampleUITests;
 			path = ViperExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09510D6B1C3EC6A600CD1547 /* ViperExample */ = {
+		09510D6B1C3EC6A600CD1547 /* CleanSwiftExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09510D941C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "ViperExample" */;
+			buildConfigurationList = 09510D941C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "CleanSwiftExample" */;
 			buildPhases = (
 				09510D681C3EC6A600CD1547 /* Sources */,
 				09510D691C3EC6A600CD1547 /* Frameworks */,
@@ -213,14 +210,14 @@
 			);
 			dependencies = (
 			);
-			name = ViperExample;
+			name = CleanSwiftExample;
 			productName = ViperExample;
-			productReference = 09510D6C1C3EC6A600CD1547 /* ViperExample.app */;
+			productReference = 09510D6C1C3EC6A600CD1547 /* CleanSwiftExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		09510D7F1C3EC6A600CD1547 /* ViperExampleTests */ = {
+		09510D7F1C3EC6A600CD1547 /* CleanSwiftExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09510D971C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "ViperExampleTests" */;
+			buildConfigurationList = 09510D971C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "CleanSwiftExampleTests" */;
 			buildPhases = (
 				09510D7C1C3EC6A600CD1547 /* Sources */,
 				09510D7D1C3EC6A600CD1547 /* Frameworks */,
@@ -231,14 +228,14 @@
 			dependencies = (
 				09510D821C3EC6A600CD1547 /* PBXTargetDependency */,
 			);
-			name = ViperExampleTests;
+			name = CleanSwiftExampleTests;
 			productName = ViperExampleTests;
-			productReference = 09510D801C3EC6A600CD1547 /* ViperExampleTests.xctest */;
+			productReference = 09510D801C3EC6A600CD1547 /* CleanSwiftExample.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		09510D8A1C3EC6A600CD1547 /* ViperExampleUITests */ = {
+		09510D8A1C3EC6A600CD1547 /* CleanSwiftExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09510D9A1C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "ViperExampleUITests" */;
+			buildConfigurationList = 09510D9A1C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "CleanSwiftExampleUITests" */;
 			buildPhases = (
 				09510D871C3EC6A600CD1547 /* Sources */,
 				09510D881C3EC6A600CD1547 /* Frameworks */,
@@ -249,9 +246,9 @@
 			dependencies = (
 				09510D8D1C3EC6A600CD1547 /* PBXTargetDependency */,
 			);
-			name = ViperExampleUITests;
+			name = CleanSwiftExampleUITests;
 			productName = ViperExampleUITests;
-			productReference = 09510D8B1C3EC6A600CD1547 /* ViperExampleUITests.xctest */;
+			productReference = 09510D8B1C3EC6A600CD1547 /* CleanSwiftExample.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -277,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09510D671C3EC6A600CD1547 /* Build configuration list for PBXProject "ViperExample" */;
+			buildConfigurationList = 09510D671C3EC6A600CD1547 /* Build configuration list for PBXProject "CleanSwiftExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -290,9 +287,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09510D6B1C3EC6A600CD1547 /* ViperExample */,
-				09510D7F1C3EC6A600CD1547 /* ViperExampleTests */,
-				09510D8A1C3EC6A600CD1547 /* ViperExampleUITests */,
+				09510D6B1C3EC6A600CD1547 /* CleanSwiftExample */,
+				09510D7F1C3EC6A600CD1547 /* CleanSwiftExampleTests */,
+				09510D8A1C3EC6A600CD1547 /* CleanSwiftExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -330,7 +327,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09510D721C3EC6A600CD1547 /* ViewController.swift in Sources */,
 				0933A4B41C417D0C008586B4 /* CreateOrderViewController.swift in Sources */,
 				0933A4AC1C417D0C008586B4 /* CreateOrderInteractor.swift in Sources */,
 				0933A4AE1C417D0C008586B4 /* CreateOrderModels.swift in Sources */,
@@ -350,7 +346,6 @@
 				0933A4B11C417D0C008586B4 /* CreateOrderPresenter.swift in Sources */,
 				0933A4BF1C42C5A9008586B4 /* CreateOrderPresenterTests.swift in Sources */,
 				0933A4C11C42C5A9008586B4 /* CreateOrderViewControllerTests.swift in Sources */,
-				09510D851C3EC6A600CD1547 /* ViperExampleTests.swift in Sources */,
 				0933A4B51C417D0C008586B4 /* CreateOrderViewController.swift in Sources */,
 				0933A4AB1C417D0C008586B4 /* CreateOrderConfigurator.swift in Sources */,
 				0933A4B71C417D0C008586B4 /* CreateOrderWorker.swift in Sources */,
@@ -374,12 +369,12 @@
 /* Begin PBXTargetDependency section */
 		09510D821C3EC6A600CD1547 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 09510D6B1C3EC6A600CD1547 /* ViperExample */;
+			target = 09510D6B1C3EC6A600CD1547 /* CleanSwiftExample */;
 			targetProxy = 09510D811C3EC6A600CD1547 /* PBXContainerItemProxy */;
 		};
 		09510D8D1C3EC6A600CD1547 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 09510D6B1C3EC6A600CD1547 /* ViperExample */;
+			target = 09510D6B1C3EC6A600CD1547 /* CleanSwiftExample */;
 			targetProxy = 09510D8C1C3EC6A600CD1547 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -492,7 +487,7 @@
 				INFOPLIST_FILE = ViperExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aks.ViperExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CleanSwiftExample;
 			};
 			name = Debug;
 		};
@@ -503,7 +498,7 @@
 				INFOPLIST_FILE = ViperExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aks.ViperExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CleanSwiftExample;
 			};
 			name = Release;
 		};
@@ -514,8 +509,8 @@
 				INFOPLIST_FILE = ViperExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aks.ViperExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViperExample.app/ViperExample";
+				PRODUCT_NAME = CleanSwiftExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanSwiftExample.app/CleanSwiftExample";
 			};
 			name = Debug;
 		};
@@ -526,8 +521,8 @@
 				INFOPLIST_FILE = ViperExampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aks.ViperExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViperExample.app/ViperExample";
+				PRODUCT_NAME = CleanSwiftExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanSwiftExample.app/CleanSwiftExample";
 			};
 			name = Release;
 		};
@@ -537,7 +532,7 @@
 				INFOPLIST_FILE = ViperExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aks.ViperExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CleanSwiftExample;
 				TEST_TARGET_NAME = ViperExample;
 				USES_XCTRUNNER = YES;
 			};
@@ -549,7 +544,7 @@
 				INFOPLIST_FILE = ViperExampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aks.ViperExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CleanSwiftExample;
 				TEST_TARGET_NAME = ViperExample;
 				USES_XCTRUNNER = YES;
 			};
@@ -558,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09510D671C3EC6A600CD1547 /* Build configuration list for PBXProject "ViperExample" */ = {
+		09510D671C3EC6A600CD1547 /* Build configuration list for PBXProject "CleanSwiftExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09510D921C3EC6A600CD1547 /* Debug */,
@@ -567,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09510D941C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "ViperExample" */ = {
+		09510D941C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "CleanSwiftExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09510D951C3EC6A600CD1547 /* Debug */,
@@ -576,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09510D971C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "ViperExampleTests" */ = {
+		09510D971C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "CleanSwiftExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09510D981C3EC6A600CD1547 /* Debug */,
@@ -585,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09510D9A1C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "ViperExampleUITests" */ = {
+		09510D9A1C3EC6A600CD1547 /* Build configuration list for PBXNativeTarget "CleanSwiftExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09510D9B1C3EC6A600CD1547 /* Debug */,
