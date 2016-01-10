@@ -21,6 +21,11 @@
 		0933A4B51C417D0C008586B4 /* CreateOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0933A4A81C417D0C008586B4 /* CreateOrderViewController.swift */; };
 		0933A4B61C417D0C008586B4 /* CreateOrderWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0933A4A91C417D0C008586B4 /* CreateOrderWorker.swift */; };
 		0933A4B71C417D0C008586B4 /* CreateOrderWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0933A4A91C417D0C008586B4 /* CreateOrderWorker.swift */; };
+		0933A4BD1C42C5A9008586B4 /* CreateOrderInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0933A4B81C42C5A9008586B4 /* CreateOrderInteractorTests.swift */; };
+		0933A4BF1C42C5A9008586B4 /* CreateOrderPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0933A4B91C42C5A9008586B4 /* CreateOrderPresenterTests.swift */; };
+		0933A4C11C42C5A9008586B4 /* CreateOrderViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0933A4BA1C42C5A9008586B4 /* CreateOrderViewControllerTests.swift */; };
+		0933A4C31C42C5A9008586B4 /* CreateOrderWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0933A4BB1C42C5A9008586B4 /* CreateOrderWorkerTests.swift */; };
+		0933A4C41C42C6CC008586B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09510D731C3EC6A600CD1547 /* Main.storyboard */; };
 		09510D701C3EC6A600CD1547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09510D6F1C3EC6A600CD1547 /* AppDelegate.swift */; };
 		09510D721C3EC6A600CD1547 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09510D711C3EC6A600CD1547 /* ViewController.swift */; };
 		09510D751C3EC6A600CD1547 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09510D731C3EC6A600CD1547 /* Main.storyboard */; };
@@ -55,6 +60,10 @@
 		0933A4A71C417D0C008586B4 /* CreateOrderRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderRouter.swift; sourceTree = "<group>"; };
 		0933A4A81C417D0C008586B4 /* CreateOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderViewController.swift; sourceTree = "<group>"; };
 		0933A4A91C417D0C008586B4 /* CreateOrderWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderWorker.swift; sourceTree = "<group>"; };
+		0933A4B81C42C5A9008586B4 /* CreateOrderInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderInteractorTests.swift; sourceTree = "<group>"; };
+		0933A4B91C42C5A9008586B4 /* CreateOrderPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderPresenterTests.swift; sourceTree = "<group>"; };
+		0933A4BA1C42C5A9008586B4 /* CreateOrderViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderViewControllerTests.swift; sourceTree = "<group>"; };
+		0933A4BB1C42C5A9008586B4 /* CreateOrderWorkerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateOrderWorkerTests.swift; sourceTree = "<group>"; };
 		09510D6C1C3EC6A600CD1547 /* ViperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09510D6F1C3EC6A600CD1547 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09510D711C3EC6A600CD1547 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +181,10 @@
 			children = (
 				09510D841C3EC6A600CD1547 /* ViperExampleTests.swift */,
 				09510D861C3EC6A600CD1547 /* Info.plist */,
+				0933A4B81C42C5A9008586B4 /* CreateOrderInteractorTests.swift */,
+				0933A4B91C42C5A9008586B4 /* CreateOrderPresenterTests.swift */,
+				0933A4BA1C42C5A9008586B4 /* CreateOrderViewControllerTests.swift */,
+				0933A4BB1C42C5A9008586B4 /* CreateOrderWorkerTests.swift */,
 			);
 			path = ViperExampleTests;
 			sourceTree = "<group>";
@@ -299,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0933A4C41C42C6CC008586B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,13 +346,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0933A4C31C42C5A9008586B4 /* CreateOrderWorkerTests.swift in Sources */,
 				0933A4B11C417D0C008586B4 /* CreateOrderPresenter.swift in Sources */,
+				0933A4BF1C42C5A9008586B4 /* CreateOrderPresenterTests.swift in Sources */,
+				0933A4C11C42C5A9008586B4 /* CreateOrderViewControllerTests.swift in Sources */,
 				09510D851C3EC6A600CD1547 /* ViperExampleTests.swift in Sources */,
 				0933A4B51C417D0C008586B4 /* CreateOrderViewController.swift in Sources */,
 				0933A4AB1C417D0C008586B4 /* CreateOrderConfigurator.swift in Sources */,
 				0933A4B71C417D0C008586B4 /* CreateOrderWorker.swift in Sources */,
 				0933A4AF1C417D0C008586B4 /* CreateOrderModels.swift in Sources */,
 				0933A4AD1C417D0C008586B4 /* CreateOrderInteractor.swift in Sources */,
+				0933A4BD1C42C5A9008586B4 /* CreateOrderInteractorTests.swift in Sources */,
 				0933A4B31C417D0C008586B4 /* CreateOrderRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,12 +14,10 @@ import UIKit
 protocol CreateOrderInteractorInput {
     var shippingMethods: [String] { get }
     func formatExpirationDate(request: CreateOrder_FormatExpirationDate_Request)
-    func doSomething(request: CreateOrderRequest)
 }
 
 protocol CreateOrderInteractorOutput {
     func presentExpirationDate(response: CreateOrder_FormatExpirationDate_Response)
-    func presentSomething(response: CreateOrderResponse)
 }
 
 class CreateOrderInteractor: CreateOrderInteractorInput {
@@ -36,18 +34,4 @@ class CreateOrderInteractor: CreateOrderInteractorInput {
         output.presentExpirationDate(response)
     }
     
-    // MARK: Business logic
-    
-    func doSomething(request: CreateOrderRequest)
-    {
-        // NOTE: Create some Worker to do the work
-        
-        worker = CreateOrderWorker()
-        worker.doSomeWork()
-        
-        // NOTE: Pass the result to the Presenter
-        
-        let response = CreateOrderResponse()
-        output.presentSomething(response)
-    }
 }

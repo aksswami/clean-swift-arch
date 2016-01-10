@@ -13,14 +13,11 @@ import UIKit
 
 protocol CreateOrderViewControllerInput {
     func displayExpirationDate(viewModel: CreateOrder_FormatExpirationDate_ViewModel)
-
-    func displaySomething(viewModel: CreateOrderViewModel)
 }
 
 protocol CreateOrderViewControllerOutput {
     var shippingMethods: [String] { get }
     func formatExpirationDate(request: CreateOrder_FormatExpirationDate_Request)
-    func doSomething(request: CreateOrderRequest)
 }
 
 class CreateOrderViewController: UITableViewController, CreateOrderViewControllerInput, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
@@ -47,7 +44,6 @@ class CreateOrderViewController: UITableViewController, CreateOrderViewControlle
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        doSomethingOnLoad()
         setUpUI()
         configurePicker()
     }
@@ -62,21 +58,6 @@ class CreateOrderViewController: UITableViewController, CreateOrderViewControlle
         expirationDateTextField.inputView = expirationDatePicker
     }
     
-    // MARK: Event handling
-    func doSomethingOnLoad() {
-        // NOTE: Ask the Interactor to do some work
-        
-        let request = CreateOrderRequest()
-        output.doSomething(request)
-    }
-    
-    // MARK: Display logic
-    
-    func displaySomething(viewModel: CreateOrderViewModel) {
-        // NOTE: Display the result from the Presenter
-        
-        // nameTextField.text = viewModel.name
-    }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         textField.resignFirstResponder()
