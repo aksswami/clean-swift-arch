@@ -11,7 +11,7 @@
 
 import XCTest
 
-class CreateOrderInteractorTests: XCTestCase
+class CreateOrderInteractorTests01: XCTestCase
 {
     // MARK: Subject under test
     
